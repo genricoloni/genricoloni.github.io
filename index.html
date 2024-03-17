@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ge-pages.io</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <h1>    ge-pages.io - Home</h1>
+  </header>
+  <main>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="post/test.html">Test</a></li>
+      </ul>
+    </nav>
+    <div class="code-editor">
+      <pre>
+        <span class="line-numbers">1 <code class="comment">// class for a post</code></span>
+        <span class="line-numbers">2 <code>class post {</code></span>
+        <span class="line-numbers">3 <code>  string title; </code></span>
+        <span class="line-numbers">4 <code>  string link; </code></span>
+        <span class="line-numbers">5 <code>  string content</code></span>
+        <span class="line-numbers">6 <code>   </code></span>
+        <span class="line-numbers">7 <code>  void openPost(title, link) {</code></span>
+        <span class="line-numbers">8 <code>    this.title = title; </code></span>
+        <span class="line-numbers">9 <code>    this.link = link; </code></span>
+        <span class="line-numbers">10 <code>   this.content = readPost(link); </code></span>
+        <span class="line-numbers">11 <code>   window.open(link); </code></span>
+        <span class="line-numbers">12 <code>  }</code></span>
+        <span class="line-numbers">13 <code>}</code></span>
+      </pre>
+    </div>
+
+
+    <div class="code-editor">
+    <pre>
+        <span class="line-numbers">1 <code class="comment">// call a function to read the article</code></span>
+        <span class="line-numbers">2 <code>post p = new post();</code></span>
+        <span class="line-numbers" onclick="window.location.href = window.location.href;">3 <code class="link-to-post">p.openPost("main page", "index.html"</a>)</code></span>
+        <span class="line-numbers">4 <code>  </code></span>
+        <span class="line-numbers" onclick="redirectPost('post/letsKnow.html');">5 <code class="link-to-post">p.openPost("Let's know each other!", "post/letsKnow.html")</code>
+        </span>
+        
+        </span>
+            </pre>
+    </div>
+
+
+
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+
+header {
+  background-color: #5d19f0d3;
+  color: #ffffff;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.code-editor {
+  background-color: #272822;
+  padding: 10px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+}
+
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* Aggiungi stili per la evidenziazione della sintassi */
+
+.keyword {
+  color: #ff79c6;
+}
+
+.string {
+  color: #98fb98;
+}
+
+.comment {
+  color: #457319;
+}
+
+/* Stili per i numeri di riga */
+
+.line-numbers {
+  display: inline-block;
+  width: 30px;
+  text-align: right;
+  color: #aaaaaa;
+}
+
+.line-numbers span {
+  display: inline-block;
+  width: 30px;
+  text-align: right;
+}
+
+.link-to-post:hover {
+  cursor: pointer;
+  color: #8c37cc
+}
+
+.line-numbers:visited {
+  color: #562222;
+}
