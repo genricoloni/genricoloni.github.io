@@ -11,12 +11,6 @@
     <h1>    ge-pages.io - Home</h1>
   </header>
   <main>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="post/test.html">Test</a></li>
-      </ul>
-    </nav>
     <div class="code-editor">
       <pre>
         <span class="line-numbers">1 <code class="comment">// class for a post</code></span>
@@ -29,7 +23,7 @@
         <span class="line-numbers">8 <code>    this.title = title; </code></span>
         <span class="line-numbers">9 <code>    this.link = link; </code></span>
         <span class="line-numbers">10 <code>   this.content = readPost(link); </code></span>
-        <span class="line-numbers">11 <code>   window.open(link); </code></span>
+        <span class="line-numbers">11 <code>   showPost(link); </code></span>
         <span class="line-numbers">12 <code>  }</code></span>
         <span class="line-numbers">13 <code>}</code></span>
       </pre>
@@ -42,7 +36,10 @@
         <span class="line-numbers">2 <code>post p = new post();</code></span>
         <span class="line-numbers" onclick="window.location.href = window.location.href;">3 <code class="link-to-post">p.openPost("main page", "index.html"</a>)</code></span>
         <span class="line-numbers">4 <code>  </code></span>
-        <span class="line-numbers" onclick="redirectPost('post/letsKnow.html');">5 <code class="link-to-post">p.openPost("Let's know each other!", "post/letsKnow.html")</code>
+        <span class="line-numbers" onclick="redirectPost('post/SSS1.html');">5 <code class="link-to-post">p.openPost("SpotifySyncWall into deep - 1", "post/SSS1.html")</code></span>
+        <span class="line-numbers">6 <code>  </code></span>
+        <span class="line-numbers" onclick="redirectPost('post/letsKnow.html');">7 <code class="link-to-post">p.openPost("Let's know each other!", "post/letsKnow.html")</code>
+          
         </span>
         
         </span>
